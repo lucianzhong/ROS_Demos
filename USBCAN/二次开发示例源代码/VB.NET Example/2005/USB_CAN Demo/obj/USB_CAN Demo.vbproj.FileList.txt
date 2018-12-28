@@ -1,0 +1,26 @@
+obj\Release\USBCANDemo.exe
+obj\Release\USBCANDemo.xml
+obj\Debug\USBCANDemo.exe
+obj\Debug\USBCANDemo.xml
+obj\Debug\USBCANDemo.pdb
+bin\Debug\USBCANDemo.exe
+bin\Debug\USBCANDemo.pdb
+bin\Debug\USBCANDemo.xml
+bin\Debug\Interop.VBA.dll
+bin\Debug\Interop.VBRUN.dll
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Interop.VBA.dll
+obj\Debug\Interop.VBRUN.dll
+obj\Debug\USB_CAN Demo.vbproj.ResolveComReference.cache
+obj\Debug\USBCANDemo.Form1.resources
+obj\Debug\USB_CAN Demo.vbproj.GenerateResource.Cache
+bin\Release\USBCANDemo.exe
+bin\Release\USBCANDemo.xml
+bin\Release\Interop.VBA.dll
+bin\Release\Interop.VBRUN.dll
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\Interop.VBA.dll
+obj\Release\Interop.VBRUN.dll
+obj\Release\USB_CAN Demo.vbproj.ResolveComReference.cache
+obj\Release\USBCANDemo.Form1.resources
+obj\Release\USB_CAN Demo.vbproj.GenerateResource.Cache

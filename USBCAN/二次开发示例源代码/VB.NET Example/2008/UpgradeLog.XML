@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="USB_CAN Demo">
+</Property><Property Name="解决方案文件" Value="F:\CAN总线资料会总\数据资料备份\DSP开发工作室资料光盘(原件)（20160501）\二次开发示例源代码\VB.NET Example\2008\USB_CAN Demo.sln">
+</Property><Property Name="Date" Value="2016年4月28日">
+</Property><Property Name="Time" Value="16:40">
+</Property></Properties><Event ErrorLevel="0" Project="USB_CAN Demo" Source="USB_CAN Demo\USB_CAN Demo.vbproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="USB_CAN Demo" Source="USB_CAN Demo\USB_CAN Demo.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="USB_CAN Demo.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="USB_CAN Demo.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="USB_CAN Demo" Source="USB_CAN Demo\USB_CAN Demo.vbproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>

@@ -1,0 +1,93 @@
+[项目窗口数据(_D)]
+ProjectExplorer.ClassicPosition[String] = "87,337,838,722"
+
+[AB_Cache_{86096899-E270-4A09-9A00-864412CFE9A0}]
+Cache_ProjSymbolChksum[String] = "1b1d56e59762b815962039b3fb528872"
+Cache_TargetSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_MyCompChksum[String] = "37db0699b592b2b5507809e815cfc924"
+Cache_GenFile_Count[Integer] = 4
+Cache_GenFile[0][Path] Line0001 = "/E/工作/USB-CAN Tool/上位机源码/USB-CAN Tool"
+Cache_GenFile[0][Path] Line0002 = "/工具源码/生成/ZLG版/reboot.exe"
+Cache_GenFile[1][Path] Line0001 = "/E/工作/USB-CAN Tool/上位机源码/USB-CAN Tool"
+Cache_GenFile[1][Path] Line0002 = "/工具源码/生成/ZLG版/reboot.aliases"
+Cache_GenFile[2][Path] Line0001 = "/E/工作/USB-CAN Tool/上位机源码/USB-CAN Tool"
+Cache_GenFile[2][Path] Line0002 = "/工具源码/生成/ZLG版/reboot.ini"
+Cache_GenFile[3][Path] Line0001 = "/E/工作/USB-CAN Tool/上位机源码/USB-CAN Tool"
+Cache_GenFile[3][Path] Line0002 = "/工具源码/生成/ZLG版/reboot.tlb"
+Cache_GenGUID_Count[Integer] = 4
+Cache_GenGUID[0][String] = "{138D708B-3FA2-4CEA-AB9A-9DFC205EB43B}"
+Cache_GenGUID[1][String] = "{88DB6FE5-9BF2-46EC-A4DC-77BDF8E6A971}"
+Cache_GenGUID[2][String] = "{BC3ABD23-B79E-45DF-B78F-48B09AB0A991}"
+Cache_GenGUID[3][String] = "{99589890-16D9-40AA-8D6C-C7436F773C21}"
+Cache_OutputDir[Path] Line0001 = "/E/工作/USB-CAN Tool/上位机源码/USB-CAN Tool/"
+Cache_OutputDir[Path] Line0002 = "工具源码/生成/ZLG版"
+
+[AB_Cache_{E92475CE-AA4E-42EB-B2F2-3C2725D8F105}]
+Cache_ProjSymbolChksum[String] = "1b1d56e59762b815962039b3fb528872"
+Cache_TargetSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_MyCompChksum[String] = "37db0699b592b2b5507809e815cfc924"
+Cache_GenFile_Count[Integer] = 4
+Cache_GenFile[0][Path] Line0001 = "/E/工作/USB-CAN Tool/上位机源码/USB-CAN Tool"
+Cache_GenFile[0][Path] Line0002 = "/工具源码/生成/ZLG版/reboot.exe"
+Cache_GenFile[1][Path] Line0001 = "/E/工作/USB-CAN Tool/上位机源码/USB-CAN Tool"
+Cache_GenFile[1][Path] Line0002 = "/工具源码/生成/ZLG版/reboot.aliases"
+Cache_GenFile[2][Path] Line0001 = "/E/工作/USB-CAN Tool/上位机源码/USB-CAN Tool"
+Cache_GenFile[2][Path] Line0002 = "/工具源码/生成/ZLG版/reboot.ini"
+Cache_GenFile[3][Path] Line0001 = "/E/工作/USB-CAN Tool/上位机源码/USB-CAN Tool"
+Cache_GenFile[3][Path] Line0002 = "/工具源码/生成/ZLG版/reboot.tlb"
+Cache_GenGUID_Count[Integer] = 4
+Cache_GenGUID[0][String] = "{138D708B-3FA2-4CEA-AB9A-9DFC205EB43B}"
+Cache_GenGUID[1][String] = "{88DB6FE5-9BF2-46EC-A4DC-77BDF8E6A971}"
+Cache_GenGUID[2][String] = "{BC3ABD23-B79E-45DF-B78F-48B09AB0A991}"
+Cache_GenGUID[3][String] = "{99589890-16D9-40AA-8D6C-C7436F773C21}"
+Cache_OutputDir[Path] Line0001 = "/E/工作/USB-CAN Tool/上位机源码/USB-CAN Tool/"
+Cache_OutputDir[Path] Line0002 = "工具源码/生成/ZLG版"
+
+[AB_Cache_{0EDE9E31-99D9-4C7C-8A9B-BCF5398CD516}]
+Cache_ProjSymbolChksum[String] = "1b1d56e59762b815962039b3fb528872"
+Cache_TargetSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_MyCompChksum[String] = "9850ac1790938af5779e9e7cd2585377"
+Cache_GenFile_Count[Integer] = 5
+Cache_GenFile[0][Path] Line0001 = "/E/工作/USB-CAN Tool/上位机源码/USB-CAN Tool"
+Cache_GenFile[0][Path] Line0002 = "/工具源码/生成/ZLG版/USB_CAN_Tool.exe"
+Cache_GenFile[1][Path] Line0001 = "/E/工作/USB-CAN Tool/上位机源码/USB-CAN Tool"
+Cache_GenFile[1][Path] Line0002 = "/工具源码/生成/ZLG版/USB_CAN_Tool.aliases"
+Cache_GenFile[2][Path] Line0001 = "/E/工作/USB-CAN Tool/上位机源码/USB-CAN Tool"
+Cache_GenFile[2][Path] Line0002 = "/工具源码/生成/ZLG版/USB_CAN_Tool.ini"
+Cache_GenFile[3][Path] Line0001 = "/E/工作/USB-CAN Tool/上位机源码/USB-CAN Tool"
+Cache_GenFile[3][Path] Line0002 = "/工具源码/生成/ZLG版/USB_CAN_Tool.tlb"
+Cache_GenFile[4][Path] Line0001 = "/E/工作/USB-CAN Tool/上位机源码/USB-CAN Tool"
+Cache_GenFile[4][Path] Line0002 = "/工具源码/生成/ZLG版/ControlCAN.dll"
+Cache_GenGUID_Count[Integer] = 5
+Cache_GenGUID[0][String] = "{1C1105DE-0E8D-4C8B-970F-BC946FE5A279}"
+Cache_GenGUID[1][String] = "{AF222E1B-A591-4567-9F2E-E456761CE97F}"
+Cache_GenGUID[2][String] = "{A5AD3E97-4D30-4B33-BA9E-903109C30985}"
+Cache_GenGUID[3][String] = "{5E688CE1-1EBF-4C03-BB5D-455AC3798172}"
+Cache_GenGUID[4][String] = ""
+Cache_OutputDir[Path] Line0001 = "/E/工作/USB-CAN Tool/上位机源码/USB-CAN Tool/"
+Cache_OutputDir[Path] Line0002 = "工具源码/生成/ZLG版"
+
+[AB_Cache_{5A253E01-AB84-45C1-A8E1-BD002C9D93C5}]
+Cache_ProjSymbolChksum[String] = "1b1d56e59762b815962039b3fb528872"
+Cache_TargetSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_MyCompChksum[String] = "9850ac1790938af5779e9e7cd2585377"
+Cache_GenFile_Count[Integer] = 5
+Cache_GenFile[0][Path] Line0001 = "/E/工作/USB-CAN Tool/上位机源码/USB-CAN Tool"
+Cache_GenFile[0][Path] Line0002 = "/工具源码/生成/ZLG版/USB_CAN_Tool.exe"
+Cache_GenFile[1][Path] Line0001 = "/E/工作/USB-CAN Tool/上位机源码/USB-CAN Tool"
+Cache_GenFile[1][Path] Line0002 = "/工具源码/生成/ZLG版/USB_CAN_Tool.aliases"
+Cache_GenFile[2][Path] Line0001 = "/E/工作/USB-CAN Tool/上位机源码/USB-CAN Tool"
+Cache_GenFile[2][Path] Line0002 = "/工具源码/生成/ZLG版/USB_CAN_Tool.ini"
+Cache_GenFile[3][Path] Line0001 = "/E/工作/USB-CAN Tool/上位机源码/USB-CAN Tool"
+Cache_GenFile[3][Path] Line0002 = "/工具源码/生成/ZLG版/USB_CAN_Tool.tlb"
+Cache_GenFile[4][Path] Line0001 = "/E/工作/USB-CAN Tool/上位机源码/USB-CAN Tool"
+Cache_GenFile[4][Path] Line0002 = "/工具源码/生成/ZLG版/ControlCAN.dll"
+Cache_GenGUID_Count[Integer] = 5
+Cache_GenGUID[0][String] = "{1C1105DE-0E8D-4C8B-970F-BC946FE5A279}"
+Cache_GenGUID[1][String] = "{AF222E1B-A591-4567-9F2E-E456761CE97F}"
+Cache_GenGUID[2][String] = "{A5AD3E97-4D30-4B33-BA9E-903109C30985}"
+Cache_GenGUID[3][String] = "{5E688CE1-1EBF-4C03-BB5D-455AC3798172}"
+Cache_GenGUID[4][String] = ""
+Cache_OutputDir[Path] Line0001 = "/E/工作/USB-CAN Tool/上位机源码/USB-CAN Tool/"
+Cache_OutputDir[Path] Line0002 = "工具源码/生成/ZLG版"
+

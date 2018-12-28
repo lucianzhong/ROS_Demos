@@ -1,0 +1,63 @@
+第一步：打开Makefile文件，并修改相应的路径：g++ -o hello_cpp main.cpp /home/ttc/Desktop/controlcan/libcontrolcan.so  -lpthread 
+（按实际路径修改）
+
+ttc@ubuntu:~$ ls
+Desktop    Downloads         fontconfig  Pictures  Templates
+Documents  examples.desktop  Music       Public    Videos
+ttc@ubuntu:~$ cd \Desktop
+ttc@ubuntu:~/Desktop$ ls
+controlcan      Linux    usbcan_ubuntu_12.04_3.2.0-29-generic-pae
+controlcan3     test.c   usbcan_ubuntu_12.04_3.2.0-29-generic-pae.zip
+controlcan.zip  test.c~  USBCAN的LINUX驱动
+libusb-1.0.20   usbcan
+ttc@ubuntu:~/Desktop$ cd \controlcan
+ttc@ubuntu:~/Desktop/controlcan$ cd \controlcan3
+bash: cd: controlcan3: No such file or directory
+ttc@ubuntu:~/Desktop/controlcan$ ls
+a.out         hello             main.c   Makefile
+controlcan.h  libcontrolcan.so  main.c~  Makefile~
+ttc@ubuntu:~/Desktop/controlcan$ cd
+ttc@ubuntu:~$ ls
+Desktop    Downloads         fontconfig  Pictures  Templates
+Documents  examples.desktop  Music       Public    Videos
+ttc@ubuntu:~$ cd \Desktop
+ttc@ubuntu:~/Desktop$ ls
+controlcan      Linux    usbcan_ubuntu_12.04_3.2.0-29-generic-pae
+controlcan3     test.c   usbcan_ubuntu_12.04_3.2.0-29-generic-pae.zip
+controlcan.zip  test.c~  USBCAN的LINUX驱动
+libusb-1.0.20   usbcan
+ttc@ubuntu:~/Desktop$ cd \controlcan3
+ttc@ubuntu:~/Desktop/controlcan3$ ls
+controlcan.h  hello_cpp  libcontrolcan.so  main.cpp  Makefile
+ttc@ubuntu:~/Desktop/controlcan3$ rm hello_cpp
+ttc@ubuntu:~/Desktop/controlcan3$ ls
+controlcan.h  libcontrolcan.so  main.cpp  Makefile
+ttc@ubuntu:~/Desktop/controlcan3$  make clean && make
+rm -f *.o hello
+#gcc -o hello -L. -lcontrolcan -lpthread -lusb main.c
+#arm-none-linux-gnueabi-gcc -o hello -L. -L /home/caidunqing/controlcan -lcontrolcan -lpthread main.c
+g++ -o hello_cpp main.cpp /home/ttc/Desktop/controlcan/libcontrolcan.so  -lpthread 
+main.cpp: In function ‘int main()’:
+main.cpp:171:60: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long int’ [-Wformat=]
+  printf("minute:%d   second:%d\n",(tm2-tm1)/60,(tm2-tm1)%60);
+                                                            ^
+main.cpp:171:60: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘long int’ [-Wformat=]
+ttc@ubuntu:~/Desktop/controlcan3$ ls
+controlcan.h  hello_cpp  libcontrolcan.so  main.cpp  Makefile
+ttc@ubuntu:~/Desktop/controlcan3$  sudo ./hello_cpp
+[sudo] password for ttc: 
+this is hello !
+success: device 04D8:0053 opened
+success: set configuration #1
+success: claim_interface #0
+CAN 1 ID: 00000000
+CAN 1 data :
+ 00000000 00000001 00000002 00000003 00000004 00000005 00000006 00000007
+CAN 2 ID: 00000003
+CAN 2 data :
+ 00000000 00000001 00000002 00000003 00000004 00000005 00000006 00000007
+IND:0 Receive: 00000000 00000000 00000001 00000002 00000003 00000004 00000005 00000006 00000007
+CAN 1 ID: 00000006
+CAN 1 data :
+ 00000000 00000001 00000002 00000003 00000004 00000005 00000006 00000007
+

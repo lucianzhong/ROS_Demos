@@ -1,0 +1,12 @@
+F:\CAN总线资料会总\数据资料备份\DSP开发工作室资料光盘(原件)（20160501）\二次开发示例源代码\VB.NET Example\2008\USB_CAN Demo\obj\x86\Release\Interop.VBA.dll
+F:\CAN总线资料会总\数据资料备份\DSP开发工作室资料光盘(原件)（20160501）\二次开发示例源代码\VB.NET Example\2008\USB_CAN Demo\obj\x86\Release\Interop.VBRUN.dll
+F:\CAN总线资料会总\数据资料备份\DSP开发工作室资料光盘(原件)（20160501）\二次开发示例源代码\VB.NET Example\2008\USB_CAN Demo\obj\x86\Release\USB_CAN Demo.vbproj.ResolveComReference.cache
+F:\CAN总线资料会总\数据资料备份\DSP开发工作室资料光盘(原件)（20160501）\二次开发示例源代码\VB.NET Example\2008\USB_CAN Demo\bin\x86\Release\USBCANDemo.exe
+F:\CAN总线资料会总\数据资料备份\DSP开发工作室资料光盘(原件)（20160501）\二次开发示例源代码\VB.NET Example\2008\USB_CAN Demo\bin\x86\Release\USBCANDemo.xml
+F:\CAN总线资料会总\数据资料备份\DSP开发工作室资料光盘(原件)（20160501）\二次开发示例源代码\VB.NET Example\2008\USB_CAN Demo\bin\x86\Release\Interop.VBA.dll
+F:\CAN总线资料会总\数据资料备份\DSP开发工作室资料光盘(原件)（20160501）\二次开发示例源代码\VB.NET Example\2008\USB_CAN Demo\bin\x86\Release\Interop.VBRUN.dll
+F:\CAN总线资料会总\数据资料备份\DSP开发工作室资料光盘(原件)（20160501）\二次开发示例源代码\VB.NET Example\2008\USB_CAN Demo\obj\x86\Release\ResolveAssemblyReference.cache
+F:\CAN总线资料会总\数据资料备份\DSP开发工作室资料光盘(原件)（20160501）\二次开发示例源代码\VB.NET Example\2008\USB_CAN Demo\obj\x86\Release\USBCANDemo.Form1.resources
+F:\CAN总线资料会总\数据资料备份\DSP开发工作室资料光盘(原件)（20160501）\二次开发示例源代码\VB.NET Example\2008\USB_CAN Demo\obj\x86\Release\USB_CAN Demo.vbproj.GenerateResource.Cache
+F:\CAN总线资料会总\数据资料备份\DSP开发工作室资料光盘(原件)（20160501）\二次开发示例源代码\VB.NET Example\2008\USB_CAN Demo\obj\x86\Release\USBCANDemo.exe
+F:\CAN总线资料会总\数据资料备份\DSP开发工作室资料光盘(原件)（20160501）\二次开发示例源代码\VB.NET Example\2008\USB_CAN Demo\obj\x86\Release\USBCANDemo.xml
