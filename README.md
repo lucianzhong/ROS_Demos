@@ -54,32 +54,79 @@ The files:
 		
 		
 3. package.xml文件： package.xml实际上是一个程序包的描述文件
-<package format="2">
-  <name>foo_core</name>#包名
-  <version>1.2.4</version>#版本号
-  <description>#描述消息
-    This package provides foo capability.
-  </description>
-  <maintainer email="ivana@willowgarage.com">Ivana Bildbotz</maintainer>
-  <license>BSD</license>
 
-  <url>http://ros.org/wiki/foo_core</url>#链接
-  <author>Ivana Bildbotz</author>#作者
-
-  <buildtool_depend>catkin</buildtool_depend>#构建工具依赖
-
-  <depend>roscpp</depend>#依赖的包
-  <depend>std_msgs</depend>
-
-  <build_depend>message_generation</build_depend>#构建时依赖的包
-
-  <exec_depend>message_runtime</exec_depend>#运行是依赖的包
-  <exec_depend>rospy</exec_depend>
-
-  <test_depend>python-mock</test_depend>#测试时依赖的包
-
-  <doc_depend>doxygen</doc_depend>#生成文档时依赖的包
-
-
+		<package format="2">
 		
+  		<name>foo_core</name>#包名
+		
+ 		<version>1.2.4</version>#版本号
+		
+  		<description>#描述消息
+		
+    		This package provides foo capability.
+		
+  		</description>
+		
+ 		<maintainer email="ivana@willowgarage.com">Ivana Bildbotz</maintainer>
+		
+  		<license>BSD</license>
+		
+  		<url>http://ros.org/wiki/foo_core</url>#链接
+	
+  		<author>Ivana Bildbotz</author>#作者
+	
+  		<buildtool_depend>catkin</buildtool_depend>#构建工具依赖
+
+  		<depend>roscpp</depend>#依赖的包
+		
+  		<depend>std_msgs</depend>
+
+  		<build_depend>message_generation</build_depend>#构建时依赖的包
+
+ 		 <exec_depend>message_runtime</exec_depend>#运行是依赖的包
+		 
+ 		 <exec_depend>rospy</exec_depend>
+
+ 		 <test_depend>python-mock</test_depend>#测试时依赖的包
+
+  		<doc_depend>doxygen</doc_depend>#生成文档时依赖的包
+
+
+
+4. msg文件： 
+
+
+
+
+
+
+5. ROS文件结构：
+
+	workspace_folder/        -- WORKSPACE
+	
+  	      src/                   -- SOURCE SPACE
+	      
+   		 CMakeLists.txt       -- 'Toplevel' CMake file, provided by catkin
+		 
+    		 package_1/
+		 
+	  		src/
+			
+	  		include/
+			
+      		     CMakeLists.txt     -- CMakeLists.txt file for package_1
+		     
+      		     package.xml        -- Package manifest for package_1
+		     
+    		 ...
+		 
+    		 package_n/
+		 
+	 		src/
+			
+	  		include/
+			
+      		     CMakeLists.txt     -- CMakeLists.txt file for package_n
+		     
+      		     package.xml        -- Package manifest for package_n
 		
