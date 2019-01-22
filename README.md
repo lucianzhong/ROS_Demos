@@ -130,3 +130,38 @@ The files:
 		     
       		     package.xml        -- Package manifest for package_n
 		
+6. 如何创建一个ROS node: 
+
+	$cd ~/catkin_ws/
+	$catkin_create_pkg beginner_tutorials std_msgs rospy roscpp
+	$cd  beginner_tutorials
+	$mkdir src
+	$cd src
+	创建 talker.cpp / listenner.cpp两个源码文件
+
+	目录下的CMakelists.txt尾部追加信息
+		include_directories(include ${catkin_INCLUDE_DIRS})
+		add_executable(talker src/talker.cpp)
+		target_link_libraries(talker ${catkin_LIBRARIES})
+		add_dependencies(talker rospubsub_demo_generate_messages_cpp)
+		add_executable(listener src/listener.cpp)
+		target_link_libraries(listener ${catkin_LIBRARIES})
+		add_dependencies(listener rospubsub_demo_generate_messages_cpp)
+
+	$source ~/catkin_ws/devel/setup.bash
+	$rosrun beginner_tutorials talker
+	$rosrun beginner_tutorials listenner
+
+	通过rqt_graph看节点状态
+	$rosrun rqt_graph rqt_graph 
+
+	使用roslanuch:
+ 	编写beginner_tutorials.launch 文件
+		 <launch>
+			<node pkg="beginner_tutorials" type="talker" name="talker" output="screen"/>
+			<node pkg="beginner_tutorials" type="listener" name="listener" output="screen"/>
+		</launch>
+
+
+	roslaunch beginner_tutorials beginner_tutorials.launch 
+
