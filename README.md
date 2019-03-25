@@ -139,18 +139,18 @@ The files:
 	$cd src
 	创建 talker.cpp / listenner.cpp两个源码文件
 
-	目录下的CMakelists.txt尾部追加信息
-		include_directories(include ${catkin_INCLUDE_DIRS})
-		add_executable(talker src/talker.cpp)
-		target_link_libraries(talker ${catkin_LIBRARIES})
-		add_dependencies(talker rospubsub_demo_generate_messages_cpp)
-		add_executable(listener src/listener.cpp)
-		target_link_libraries(listener ${catkin_LIBRARIES})
-		add_dependencies(listener rospubsub_demo_generate_messages_cpp)
+	目录下的CMakelists.txt尾部追加信息  
+		include_directories(include ${catkin_INCLUDE_DIRS})  
+		add_executable(talker src/talker.cpp)  
+		target_link_libraries(talker ${catkin_LIBRARIES})  
+		add_dependencies(talker rospubsub_demo_generate_messages_cpp)  
+		add_executable(listener src/listener.cpp)  
+		target_link_libraries(listener ${catkin_LIBRARIES})  
+		add_dependencies(listener rospubsub_demo_generate_messages_cpp)  
 
-	$source ~/catkin_ws/devel/setup.bash
-	$rosrun beginner_tutorials talker
-	$rosrun beginner_tutorials listenner
+	$source ~/catkin_ws/devel/setup.bash  
+	$rosrun beginner_tutorials talker  
+	$rosrun beginner_tutorials listenner  
 
 	通过rqt_graph看节点状态
 	$rosrun rqt_graph rqt_graph 
