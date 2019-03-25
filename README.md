@@ -5,10 +5,12 @@ Using ROS: source /opt/ros/kinetic/setup.bash
 
 
 How to install ROS KInetic in Unbuntu 16.04:
+-------  
 	http://wiki.ros.org/kinetic/Installation/Ubuntu
 
 
 catkin_make:
+-------  
 
 	1. make folder: /home/lucian/catkin_ws/src
 	
@@ -21,6 +23,7 @@ catkin_make:
 
 
 The files:
+-------  
 
 
 1. launch文件： 使用launch file, 可以同时启动多个ros节点，包括ROS-master. 所以这样只要一个roslaunch,就可以启动　roscore和多个节点程序
@@ -94,6 +97,7 @@ The files:
 
 
 4. msg文件： 
+-------  
 
 
 
@@ -101,6 +105,7 @@ The files:
 
 
 5. ROS文件结构：
+-------  
 
 	workspace_folder/        -- WORKSPACE
 	
@@ -131,6 +136,7 @@ The files:
       		     package.xml        -- Package manifest for package_n
 		
 6. 如何创建一个ROS node: 
+-------  
 
 	$cd ~/catkin_ws/
 	$catkin_create_pkg beginner_tutorials std_msgs rospy roscpp
