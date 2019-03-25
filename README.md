@@ -96,7 +96,7 @@ The files:
 
 
 
-4. msg文件： 
+4.msg文件： 
 -------  
 
 
@@ -104,7 +104,7 @@ The files:
 
 
 
-5. ROS文件结构：
+5.ROS文件结构：
 -------  
 
 	workspace_folder/        -- WORKSPACE
@@ -135,7 +135,7 @@ The files:
 		     
       		     package.xml        -- Package manifest for package_n
 		
-6. 如何创建一个ROS node: 
+6.如何创建一个ROS node: 
 -------  
 
 	$cd ~/catkin_ws/
