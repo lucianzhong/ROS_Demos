@@ -1,0 +1,32 @@
+Path_planning
+
+A path planning algorithm based on RRT implemented using ROS.
+
+ROS kinetic
+
+The algorithm find an optimized path for a one obstacle environment. The visualtization is done in RVIZ and the code is written in C++. 
+
+The package has two executables: 
+ros_node 
+env_node 
+
+RVIZ parameters: 
+Frame_id = "/path_planner" 
+marker_topic = "path_planner_rrt" 
+Instructions: 
+
+
+How to run?
+$roscore 
+Open new terminal and go to the the root of your catkin workspace and in the catkin_ws/src
+$catkin_make 
+$source ./devel/setup.bash 
+$rosrun path_planning env_node 
+open new terminal 
+$rosrun rviz rviz 
+In the RVIZ window, change: 
+fixed frame under global option to "/path_planner" 
+add a marker and change marker topic to "path_planner_rrt" 
+Open new terminal 
+$rosrun path_planning rrt_node 
+The environment and the path will be visualized in RVIZ. 
